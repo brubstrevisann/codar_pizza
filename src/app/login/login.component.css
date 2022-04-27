@@ -1,0 +1,110 @@
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    #ee7724,
+    #d8363a,
+    #dd3675,
+    #b44593
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+img {
+  display: block;
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+.text-image {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ef4c00;
+  font-weight: bold;
+  font-size: 20px;
+}
+.text-center-2 {
+  font-size: 20px;
+  color: #ff5100;
+}
+input {
+  height: 2.375rem;
+  width: 17.25rem;
+  border: 1px solid #707070;
+  border-radius: 1.625rem;
+  background: #f4f9ff 0% 0% no-repeat padding-box;
+}
+
+button {
+  height: 2.375rem;
+  width: 17.25rem;
+  border: 1px solid #707070;
+  border-radius: 1.625rem;
+  background: #ef4c00 0% 0% no-repeat padding-box;
+}
+
+a {
+  font: normal normal normal 15px/36px Josefin Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-decoration: none;
+}
+.linha {
+  /* Layout Properties */
+  top: 254px;
+  left: 1010px;
+  width: 440px;
+  height: 2px;
+  /* UI Properties */
+  border: 1px solid #2e4765;
+  opacity: 0.2;
+}
+
+.text-login {
+  font: normal normal bold 17px/21px Proxima Nova;
+  letter-spacing: 0px;
+  color: #b30733;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: -15.75rem !important;
+  border-bottom: 4px solid #ef4c00;
+}
+/* 
+.text-login::after {
+  content: "";
+  position: absolute;
+  border-bottom: 3px solid #27461f;
+  width: 100px;
+  right: 0;
+  bottom: 0;
+} */
+
+.linha-text-login {
+  background: #ef4c00 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+}
